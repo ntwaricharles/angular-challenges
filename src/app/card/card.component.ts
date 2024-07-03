@@ -7,5 +7,10 @@ import { items } from '../model/Items';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-  @Input() data: any  = [];
+  @Input() data: items  = { 
+  id: 1,
+  description: '',
+  imageUrl: "",
+  category: ''
+};
 }

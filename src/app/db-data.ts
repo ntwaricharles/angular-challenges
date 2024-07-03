@@ -1,4 +1,4 @@
-export const data = [
+export const data: any = [
     {
         id: 1,
         description: 'Lady with a red umbrella',
